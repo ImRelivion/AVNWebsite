@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:#1d1b1d;
+    color: white;
+    width: 100%;
+   
+}
+
+header
+{
+display: flex;
+justify-content: center;
+width: 100%;
+background-color: #7c113e;
+padding-top: 0.5%;
+padding-bottom: 0.5%;
+border: #4e0322 solid 2.4PX;
+
+}
+
+nav
+{
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    background-color: #7c113e;
+}
+
+nav a
+{
+    display: flex;
+    color:  rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.Header-1 {
+    background-color: #7c113e;
+    margin-top: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    border:  #4e0322 solid 2.4px;
+    width: 100vw;
+    
+    
+}
+
+h3 {
+    margin-top: 2em;
+    text-align: center;
+    padding-bottom: 0.2em;
+    
+    
+}
+
+.Info-P {
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    text-align: justify;
+    
+    
+}
+
+.List
+{
+    
+    width: max-content;
+    margin: auto;
+    margin-top: 2em;
+    font-family: 'Lora', serif;
+}
+
+.List a
+{
+    color: white;
+}
+
+
+.FFM-H4
+{
+font-size: 24px;
+text-align: center;
+background-color: #7c113e;
+border: #4e0322 solid 2.4px;
+padding-top: 0.8em;
+padding-bottom: 0.8em;
+margin: auto;
+margin-top: 4%;
+width: 40%;
+
+
+
+}
+.main-image
+{
+    display: block;
+   
+
+}
+
+h5
+
+{
+    margin-left: 25%;
+    margin-top: 2em;
+    font-size: 16px;
+}
+
+.FFM-P
+{
+    display: flex;
+    flex-wrap: wrap;  
+    text-align: left;
+    margin-top: 5em;
+    padding-left: 10%;
+}
+
+.FFM-T p 
+
+{
+    width: 80%;
+    text-align: justify;
+}
+.FFM-T h3 
+
+{
+    width: 80%;
+    text-align: left;
+    margin-top: 0;
+    padding-bottom: 0.2em;
+}
+.FFM-T 
+
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.FFM-PT
+
+{
+    display: flex;
+    width: 71%;
+    margin: auto;
+    margin-top: 1em;
+    
+    
+}
+
+.FFM-CPT h3
+
+{
+
+text-align: left;
+
+}
+
+.FFM-CPT a
+{
+    color: #f96854;
+}
+
+.DIK-H4
+
+{
+    
+    font-size: 24px;
+    text-align: center;
+    background-color: #ff8c00;
+    border: #c06b02 solid 2.4px;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin: auto;
+    margin-top: 5em;
+    width: 40%;
+    
+    
+}
+
+.DIK-CPT h3
+
+{
+    margin-top: 2em;
+    text-align: left;
+    padding-bottom: 0.2em;
+}
+
+.DIK-PT
+
+{
+    display: flex;
+    align-items: center;
+    flex-direction: wrap;
+    width: 70%;
+    margin: auto;
+    margin-top: 1em;
+    text-align: justify;
+    
+}
+
+.DIK-T
+{
+    width: 40%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-right: 5em;
+    
+    
+    
+}
+
+.DIK-P
+
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-top: 5em;
+    padding-right: 0%;
+    gap: 5em;
+
+}
+
+.DIK-image
+
+{
+    display: block;
+    width: 40%;
+    padding-left: 9em;
+}
+
+.DIK-T h3
+
+{
+    text-align: left;
+    margin-top: 0em;
+    padding-bottom: 0.2em;
+}
+
+.DIK-CPT a
+{
+    color: #f96854; 
+}
+
+.DH-H4
+{
+    font-size: 24px;
+    text-align: center;
+    background-color: #dd163b;
+    border: #a3112c solid 2.4px;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin: auto;
+    margin-top: 4em;
+    width: 40%;
+}
+
+.DH-CPT H3
+{
+    margin-top: 0em;
+    text-align: left;
+    margin-top: 2em;
+    padding-left: 12.2em;
+    margin: auto;
+    padding-bottom: 0.2em;
+    margin-top: 4em;
+    
+    
+    
+}
+
+.DH-CPT p
+{
+    display: flex;
+    align-items: center;
+    flex-direction: wrap;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.DH-T
+{
+    width: 35%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+
+}
+
+.DH-P
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-top: 5em;
+    padding-right: 0%;
+    gap: 5em;
+}
+
+.DH-image
+{
+    display: block;
+    width: 40%;
+    padding-left: 9em;
+}
+
+.DH-T H3 
+{
+    text-align: left;
+    margin-top: 0%;
+}
+
+.DH-T a
+{
+    color: #f96854;
+}
+
+.Academy-H4
+{
+    font-size: 24px;
+    text-align: center;
+    background-color: #ffd000;
+    border: #d4b00c solid 2.4px;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin: auto;
+    margin-top: 5em;
+    width: 40%;
+}
+
+.Academy-PT
+{
+    display: flex;
+    align-items: center;
+    flex-direction: wrap;
+    width: 70%;
+    margin: auto;
+    margin-top: 1em;
+    text-align: justify;
+}
+
+.Academy-CPT h3
+{
+    text-align: left;
+}
+
+.Academy-P 
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 5em;
+    gap: 5em;
+}
+
+.Academy-image
+{
+    display: block;
+    width: 40%;
+    padding-right: 10em;
+    margin-bottom: 20%;
+}
+
+.Academy-T H3
+{
+    text-align: left;
+    margin-top: 0%;
+}
+
+.Academy-T
+{
+    width: 45%;
+    padding-left: 9em;
+    text-align: justify;
+}
+
+.Academy-CPT a
+{
+    color: #f96854;
+}
+
+
+
+
+
+
+    @media (max-width: 600px)
+    
+    {
+        .Info-P
+        {
+            width: 100%;
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+        }
+        .main-image 
+        {
+            max-width: 100%;
+        }
+    
+        .FFM-H4 
+        {
+            width: 100%;
+        }
+
+        .FFM-T
+        {
+            width: fit-content;
+        }
+
+        .FFM-P
+        {
+            padding-left: 0%;
+        }
+
+        .DIK-H4
+        {
+            width: 100%;
+        }
+
+        .DIK-image
+        {
+            width: 100%;
+            padding-left: 0%;
+        }
+        
+        .DIK-T
+        {
+            width: fit-content;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        .DH-H4
+        {
+            width: 100%;
+        }
+
+        .DH-CPT H3
+        {
+            padding-left: 2.6em;
+        }
+
+        .DH-image
+        {
+            width: 100%;
+            padding-left: 0%;
+        }
+
+        .DH-T
+        {
+            width: 100%;
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+        }
+
+        .Academy-H4
+        {
+            width: 100%;
+        }
+
+        .Academy-T
+        {
+            width: 100%;
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+        }
+
+        .Academy-image
+        {
+            width: 100%;
+            padding-right: 0%;
+            padding-left: 0%;
+        }
+
+
+
+        
+        
+
+        
+    }
