@@ -51,7 +51,7 @@ nav a
     padding-bottom: 1.5em;
     text-align: center;
     border:  #4e0322 solid 2.4px;
-    width: 100vw;
+    width: 100%;
     
     
 }
@@ -399,7 +399,262 @@ text-align: left;
     color: #f96854;
 }
 
+.Header-2
+{
+    text-align: center;
+    margin-top: 1.32em;
+    font-size: 24px;
+    font-weight: 1000;
+    background-color: #7c113e;
+    border: #4e0322 solid 2.4px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
 
+    
+
+}
+
+.Download-P
+{
+    margin: auto;
+    width: 70%;
+    margin-top: 4em;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.List-2
+{
+    width: max-content;
+    margin: auto;
+    margin-top: 2em;
+    
+    
+}
+
+.List-2 a
+{
+    color: White;
+    
+}
+
+.List-P
+{
+    background-color: #7c113e;
+    border: #4e0322 solid 2.4px;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin: auto;
+    width: 40%;
+    margin-top: 5em;
+    font-size: 24px;
+    margin-bottom: 0.4em;
+    margin-top: 4em;
+    text-align: center;
+}
+
+.DIK-HP
+{
+    background-color: #04aa6a;
+    border: #037e4f solid 2.4px;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin: auto;
+    margin-top: 5em;
+    width: 40%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.DIK-H
+{
+    text-align: justify;
+    margin-top: 2em;
+    font-size: 18px;
+    text-align: center;
+    
+   
+}
+
+.DIK-H a
+{
+    color: #388bf8;
+    font-size: 18px;
+}
+
+
+
+.Info-P1
+{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0.5em;
+}
+
+.WinRAR-T
+{
+    background-color: #49db05;
+    border: #2d8803 solid 2.4px;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin: auto;
+    margin-top: 5em;
+    width: 40%;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.WinRAR1
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 6em;
+    gap: 4em;
+}
+
+.WinRAR1-image
+{
+    display: block;
+    width: 35%;
+    padding-right: 9em;
+    margin-bottom: 2em;
+}
+
+.WinRAR1 p
+{
+    padding-left: 14em;
+    width: 50%;
+    font-size: 20px;
+}
+
+.WinRAR2
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-top: 4em;
+    gap: 4em;
+}
+
+.WinRAR2-image
+{
+    display: block;
+    width: 50%;
+    padding-left: 14em;
+    margin-bottom: 2em;
+}
+
+.WinRAR2 p
+{
+    padding-right: 11em;
+    width: 40%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.WinRAR3
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 4em;
+    gap: 4em;
+}
+
+.WinRAR3-image
+{
+    display: block;
+    width: 50%;
+    padding-right: 14em;
+    margin-bottom: 2em;
+}
+
+.WinRAR3 p
+{
+    padding-left: 11em;
+    width: 40%;
+    font-size: 20px;
+}
+
+.WinRAR4
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-top: 4em;
+    gap: 4em;
+}
+
+.WinRAR4-image
+{
+    display: block;
+    width: 50%;
+    padding-left: 14em;
+    margin-bottom: 2em;
+}
+
+.WinRAR4 p
+{
+    padding-right: 11em;
+    width: 40%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.Header-3
+{
+    text-align: center;
+    margin-top: 1.32em;
+    font-size: 24px;
+    font-weight: 1000;
+    background-color: #7c113e;
+    border: #4e0322 solid 2.4px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.About-ME h3
+{
+    font-size: 24px;
+    text-align: center;
+    background-color: #e100ff;
+    border: #9e03b3 solid 2.4px;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin: auto;
+    margin-top: 4em;
+    width: 40%;
+    margin-bottom: 4em;
+}
+
+.About-ME
+{
+    margin: auto;
+    margin-top: 2em;
+    text-align: justify;
+    width: 75%;
+}
+
+.About-ME p
+{
+    border: white solid 2.4px;
+    border-radius: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+.Contact h4
+{
+    text-align: center;
+    margin-bottom: 20%;
+}
 
 
 
@@ -493,10 +748,103 @@ text-align: left;
             padding-left: 0%;
         }
 
+        .List-P
+        {
+            width: 100%;
+        }
 
+        .DIK-HP
+        {
+            width: 100%;
+        }
+
+        .Info-P1
+        {
+            padding-right: 0.28em;
+            padding-left: 0.28em;
+        }
+
+        .WinRAR-T
+        {
+            width: 100%;
+        }
+
+        .WinRAR1-image
+        {
+            width: 100%;
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+        
+        .WinRAR1 p
+        {
+            width: 100%;
+            padding-left: 1em;
+            padding-right: 1em;
+            
+        }
+
+        .WinRAR2 p
+        {
+            width: 100%;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        .WinRAR2-image
+        {
+            width: 100%;
+            padding-right: 0%;
+            padding-left: 0%;
+        }
 
         
+        .WinRAR3 p
+        {
+            width: 100%;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
         
+        .WinRAR3-image
+        {
+            width: 100%;
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+
+        .WinRAR4-image
+        {
+            width: 100%;
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+
+        .WinRAR4 p
+        {
+            width: 100%;
+            padding-right: 1em;
+            padding-left: 1em;
+            margin-bottom: 40%;
+        }
+
+        .About-ME H3
+        {
+            width: 100%;
+        }
+
+        .About-ME
+        {
+            width: 100%;
+        }
+        
+        .About-ME p
+        {
+            padding-left: 1em;
+            padding-right: 1em;
+            margin-bottom: 40%;
+        }
 
         
     }
+
