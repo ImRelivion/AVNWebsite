@@ -718,9 +718,23 @@ text-align: left;
     margin-right: 2%;
 }
 
+#DropDownDH {
+    font-size: 2.5em;
+    font-family: monospace;
+    font-weight: 100;
+    margin-bottom: -0.7em;
+}
+
+#DropDownDH:hover {
+    color: blue;
+}
+
+
+
 .DH-H4-2
 {
     font-size: 24px;
+    display: flex;
     text-align: center;
     border: #a3112c solid 2.4px;
     padding-top: 0.8em;
@@ -728,22 +742,103 @@ text-align: left;
     margin: auto;
     margin-top: 4em;
     width: 40%;
+    align-content: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.DropFlex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 0.5em
 }
 
 .Gal-2
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     margin: 2em 2em 0 2em;
+}
+
+.FFM-Griddy
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*fixa grid problem*/
 }
 
 .AFFM-image
 {
     padding: 1em;
-    width: 100%;
+    width: 33%;
     max-height: 280px;
 }
 
+.KFFM-image
+{
+    margin-left: 30vw;
+    width: 40%;
+  
+   
+}
+
+
+.FFM-H4-2
+{
+font-size: 24px;
+text-align: center;
+border: #4e0322 solid 2.4px;
+padding-top: 0.8em;
+padding-bottom: 0.8em;
+margin: auto;
+margin-top: 4%;
+width: 40%;
+
+}
+.Gal-3
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    margin-left: 2em;
+    
+}
+
+.DIK-Griddy
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+
+.image {
+    width: 48%
+    
+}
+
+
+.DIK-H4-2
+{
+        
+    font-size: 24px;
+    text-align: center;
+    border: #c06b02 solid 2.4px;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin: auto;
+    margin-top: 5em;
+    width: 40%;
+    align-content: center;
+    justify-content: center;
+    gap: 0.5em;
+
+    
+}
 
     @media (max-width: 600px)
     
@@ -931,6 +1026,142 @@ text-align: left;
             margin-bottom: 40%;
         }
 
-        
-    }
+        .DH-H4-2
+        {
+            width: 60%;
+        }
 
+        .Gal-1
+        {
+            width: 100%;
+            height: 40%;
+        }
+
+        .MDH-image
+        {
+            width: 100%;
+            
+        }
+
+        .ADH-image
+        {
+            width: 100%;
+            height: 250px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .TDH-image
+        {
+            width: 88%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .JTDH-image
+
+        {
+            width: 88%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .LDH-image
+        {
+            width: 88%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .FFM-H4-2
+        {
+            width: 60%;
+        }
+
+        .Gal-2
+        {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .AFFM-image
+        {
+            width: 100%;
+        }
+
+        .KFFM-image
+        {
+            width: 98%;
+            margin-left: 0px;
+        }
+        
+        .image
+        {
+            width: 88%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .Gal-3
+        {
+            margin-left: 0px;
+        }
+    
+    }
+    @media (max-width: 800px)
+        
+    {
+        .MDH-image
+        {
+            width: 45%;
+            margin-left: 20px;
+        }
+
+        .ADH-image
+        {
+            width: 47%;
+            height: 390px;
+        }
+
+        .TDH-image
+        {
+            width: 30%;
+            height: 200px;
+        }
+
+        .JTDH-image
+        {
+            width: 30%;
+        }
+
+        .AFFM-image
+        {
+            width: 32.8%;
+            height: 400px;
+            margin-left: 0%;
+        }
+        .Gal-2
+        {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .DIK-H4-2
+        {
+            margin-top: 45px;
+            width: 40%;
+        }
+
+        .KFFM-image
+        {
+            width: 95%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        
+        .image
+        {
+            width: 96%;
+        }
+    }
+    

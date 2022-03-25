@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>AVN Gallery</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,11 +20,12 @@
     <main>
 
         <div class="Header-4">Picture Gallery From The AVN's</div>
-
-        <div class="DH-H4-2"> Double Homework </div>
-        <div class="Gal-1">
-
-            <img src="MDH.jpg" alt="Picture of Morgan from Double Homework" class="MDH-image">
+        <div class="DH-H4-2 DropFlex" data-gallery="Gal-1">
+            <p class="DH-Pull" id="DropDownDH" onclick="Drop('.Gal-1')">ˇ</p>
+            <div> Double Homework </div>
+        </div>
+        <div class="Gal-1 open" >
+            <img src="MDH.jpg" alt="Picture of Morgan from Double Homework" class="MDH-image" style="display: block;">
             <img src="ADH.jpg" alt="Picture of Amy from Double Homework" class="ADH-image">
             <img src="TDH.png" alt="Picture of Tamara from Double Homework" class="TDH-image">
             <img src="JTDH.png" alt="Picture of Johanna and Tamara from Double Homework" class="JTDH-image">
@@ -31,12 +33,36 @@
             <img src="RDH.png" alt="Picture of Rachel from Double Homework" class="RDH-image">
         </div>
 
-        <div class="Gal-2">
-            <img src="AFFM.jpg" alt="Picture of Alice from Freeloading Family" class="AFFM-image">
-            <img src="LFFM.jpg" alt="Picture of Leah from Freeloading Family" class="AFFM-image">
-            <img src="MFFM.jpg" alt="Picture of Melody from Freeloading Family" class="AFFM-image">
-        
+        <div class="FFM-H4-2 DropFlex"> 
+            <p class="DH-Pull" id="DropDownDH" onclick="Drop('.Gal-2')">ˇ</p>
+            <div>Freeloading Family</div>
         </div>
- </main>
+
+        <div class="Gal-2">
+            <div class="FFM-Griddy">
+                <img src="AFFM.jpg" alt="Picture of Alice from Freeloading Family" class="AFFM-image">
+                <img src="LFFM.jpg" alt="Picture of Leah from Freeloading Family" class="AFFM-image">
+                <img src="MFFM.jpg" alt="Picture of Melody from Freeloading Family" class="AFFM-image">  
+            </div>      
+            <div>
+                <img src="KFFM.jpg" alt="Picture of Karina from Freeloading Family" class="KFFM-image">
+            </div>
+        </div>
+        
+            <div class="DIK-H4-2 DropFlex"> 
+                <p class="DH-Pull" id="DropDownDH" onclick="Drop('.Gal-3')">ˇ </p>
+                <div> Being a DIK </div> 
+            </div>
+        <div class="Gal-3">
+                <img src="JDIK.png" alt="Picture of Josy from Being a DIK" class="image">
+                <img src="SDIK.png" alt="Picture of Sage from Being a DIK" class="image">
+                <img src="MDIK.jpg" alt="Picture of Maya form Being a DIK" class="image">
+                <img src="RDIK.jpg" alt="Picture of Riona from Being a DIK" class="image">          
+                <img src="JDIK.jpg" alt="Picture of Jill from Being a DIK" class="image">
+                <img src="IDIK.jpg" alt="Picture of Isabella from Being a DIK" class="image">
+
+        </div>
+
+    </main>
 </body>
 </html>
